@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary meta tag -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="educative.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <title>CodeCradle</title>
+</head>
+<body>
+
+    <!-- Navigation part -->
+    <nav>
+        <!-- Logo -->
+        <img src="logo.png" alt="Logo" class="logo">
+        <!-- Navigation links -->
+        <div class="navigation">
+            <ul class="Options">
+                <i id="menuClose" class="fa fa-close"></i>
+                <li><a href="educative.html" class="link">Home</a></li>
+                <li><a class="active" href="about.html" class="link">About</a></li>
+                <li><a href="blogs.html" class="link">Blog</a></li>
+                <li><a href="courses.html" class="link">Courses</a></li>
+                <li><a href="contact.html" class="link">Contact</a></li>
+            </ul>
+            <img id="menuBtn" src="images/image/Hamburger.svg" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="about-home">
+        <h2>About CodeCradle!</h2>
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images20.png" alt="images1" class="immi">
+        </div>
+
+        <div class="about-text">
+            <h2>Welcome to SkillForage, Enhance your placements with best Online Courses!</h2>
+            <p>At SkillForage, we help students kickstart their tech careers. 
+                With tailored resources and expert guidance, we empower you to succeed in technical placements. 
+                Let's bridge the gap between education and opportunity together!
+            </p>
+            <div class="about-fea">
+                <img src="users.png" alt="user">
+                <div class="fea-text">
+                    <h5>100+ Courses</h5>
+                    <p>Explore a diverse range of courses tailored to ignite your passion and enhance your skills!</p>
+                </div>
+            </div>
+
+            <div class="about-fea">
+                <img src="LifeTimeAcess.png" alt="lifeTimeAcess">
+                <div class="fea-text">
+                    <h5>LifeTime Access</h5>
+                    <p>Unlock lifetime access to exclusive content and features—your journey starts here!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>SkillForge offers courses, coding challenges, and resources for tech placements.</p>
+        <div class="fead-base">
+            <div class="fea-box">
+                <!-- <img src="codingChallenge.png" alt="codingChallenge" class="Challenge"> -->
+                <i class="fas fa-code"></i>
+                <h3>Coding Challenges</h3>
+                <p>Test your skills with real-world coding challenges and problem-solving tasks.</p>
+            </div>
+            <div class="fea-box">
+                <!-- <img src="courses.png" alt="courses" class="Courses"> -->
+                <i class="fas fa-laptop-code"></i>
+                <h3>Online Courses</h3>
+                <p>Access expert-led online courses covering key topics for tech placements success.</p>
+            </div>
+            <div class="fea-box">
+                <!-- <img src="revision.png" alt="revision" class="Revision"> -->
+                <i class="fas fa-award"></i>
+                <h3>Revision</h3>
+                <p>Quickly review key concepts and topics with concise, focused revision materials.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust by -->
+    <section id="trust">
+        <h1>Trusted by</h1>
+        <p>Trusted by educators, students, and parents worldwide for quality learning resources.</p>
+        <div class="trust-img">
+            <img src="trust4.jpg" alt="img1">
+            <img src="trust6.png" alt="img2">
+            <img src="trust3.png" alt="img3">
+            <img src="trust1.png" alt="img4">
+            <img src="trust5.jpg" alt="img5">
+            <img src="trust7.png" alt="img6">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick links</h3>
+            <li>Jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>NewsLetter</h3>
+            <p>You can trust us. We only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="green">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©2024 All rights reserved | This template made by SkillForage</p>
+            <div class="proLinks">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CloseBtn and menubtn-->
+    <script>
+        $('#menuBtn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menuClose').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    
+</body>
+</html>
