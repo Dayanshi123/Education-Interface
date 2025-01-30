@@ -18,7 +18,7 @@ We are on a mission to supercharge this interface with JavaScript, making it mor
 We welcome enthusiastic contributors! If you're interested in collaborating, feel free to reach out or fork the repository once it's publicly available. Let's build something amazing together! 💪
 
 ## 📩 Connect with Us
-Have feedback, suggestions, or just want to say hi? Reach out to us at **[jaindayanshi123@gmail.com]**.
+Have feedback, suggestions, or just want to say hi? Reach out to us at **jaindayanshi123@gmail.com**.
 
 Happy Learning & Happy Coding! 🚀💻
 
